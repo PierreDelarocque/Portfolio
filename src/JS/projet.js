@@ -29,5 +29,9 @@ const projets = [
     image: projet3,
     compétence: "Filgma / HTML / CSS / Javascript / Git / Github",
   },
+  {
+    id: 4,
+    name: "Coming Soon",
+  },
 ];
 export default projets;
