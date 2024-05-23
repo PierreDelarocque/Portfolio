@@ -1,8 +1,13 @@
+import Profil from "../image/pierre.png";
+
 function Acceuil() {
   return (
-    <div>
-      <h1>hello toto</h1>
-    </div>
+    <>
+      <div>
+        <p>Bonjour, </p>
+      </div>
+      <img src={Profil} alt="" />
+    </>
   );
 }
 export default Acceuil;
