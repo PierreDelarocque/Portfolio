@@ -1,4 +1,4 @@
-import Profil from "../image/pierre.png";
+import Profil from "../image/pierre2.png";
 
 function Acceuil() {
   return (

@@ -12,9 +12,6 @@ function App() {
       </nav>
       <header className="header-container">
         <h1 className="titre-h1">Mon Portefolio</h1>
-        <div>
-          <h6>none</h6>
-        </div>
       </header>
       <main>
         <Outlet />
