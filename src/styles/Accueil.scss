@@ -1,0 +1,17 @@
+.photo-container {
+  width: 35rem;
+  height: auto;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin: 20px;
+}
+
+.accueil-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
