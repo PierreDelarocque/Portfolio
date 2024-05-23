@@ -80,3 +80,10 @@ select {
   width: auto;
   height: 20rem;
 }
+
+@media screen and (max-width: 999px) {
+  .grid-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
