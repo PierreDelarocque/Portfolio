@@ -1,15 +1,26 @@
 import data from "../JS/projet";
-
+import { useState } from "react";
 function Projet() {
+  const [filterChoise, setFilterChoise] = useState("");
   return (
     <>
-      {data.map((data) => (
-        <div key={data.id}>
-          <h2>{data.name}</h2>
-          <img src={data.image} alt="projet" />
-          <cite>{data.descripstion} </cite>
-        </div>
-      ))}
+      <select onChange={(e) => setFilterChoise(e.target.value)}>
+        <option value="">All</option>
+        {data.map((projet) => (
+          <option key={projet.id} value={projet.name}>
+            {projet.name}
+          </option>
+        ))}
+      </select>
+      {data
+        .filter((theme) => theme.name === filterChoise || !filterChoise)
+        .map((data) => (
+          <div className="projet-container" key={data.id}>
+            <img className="img-container" src={data.image} alt="projet" />
+            <cite>{data.description} </cite>
+            <cite>{data.compétence} </cite>
+          </div>
+        ))}
     </>
   );
 }

@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <nav>
-        <NavLink to="/">Acceuil</NavLink>
+        <NavLink to="/">Portfolio</NavLink>
         <NavLink to="/projet">Projets</NavLink>
         <NavLink to="/contact">Contact</NavLink>
       </nav>
