@@ -6,9 +6,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px;
   margin: 20px;
-  border-radius: 20%;
 }
 
 .accueil-container {
@@ -21,4 +19,11 @@
 .img-container {
   width: 5rem;
   height: auto;
+}
+
+@media screen and (max-width: 999px) {
+  .accueil-container {
+    display: flex;
+    flex-direction: column;
+  }
 }

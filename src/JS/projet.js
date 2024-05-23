@@ -11,23 +11,26 @@ const projets = [
     image: panc,
     compétence:
       "Figma / React/ API /SCSS / SASS / Javascript / Node / Méthode Agile avec SCRUM / Git / Github",
+    lien: "https://github.com/WildCodeSchool-2024-02/JS-RemoteFR-P1-StackQAMP.git",
   },
   {
     id: 2,
     name: "AventuresAtmo",
     description:
-      "application de proposition d’activités à Tours selon la météo.",
+      "Application de proposition d’activités à Tours selon la météo.",
     image: projet2,
     compétence:
       "Figma / React/ API /SCSS / SASS / Javascript / Node / Méthode Agile avec SCRUM / Git / Github",
+    lien: "https://github.com/WildCodeSchool-2024-02/JS-RemoteFR-Gridception-P2-Plapimad.git",
   },
   {
     id: 3,
     name: "Échappee Célèbrement Fastasque",
     description:
-      "24h pour créer un projet en équipe de 5 personnes, sur le thème Nature & Évasion en mélangeant plusieurs classes et différent language de programmation. Nous étions 3 élèves JS et 2 élèves PHP, de ce fait nous avons dû apprendre sur le tas à faire coller les deux technos.",
+      "24h pour créer un projet en équipe de 5 personnes, sur le thème Nature & Évasion en mélangeant plusieurs classes et différent language de programmation.",
     image: projet3,
     compétence: "Filgma / HTML / CSS / Javascript / Git / Github",
+    lien: "https://github.com/WildCodeSchool-2024-02/wcs-Protojam-goupeA.git",
   },
 ];
 export default projets;

@@ -20,7 +20,9 @@ function Projet() {
           .filter((theme) => theme.name === filterChoise || !filterChoise)
           .map((data) => (
             <div className="projet-container" key={data.id}>
-              <img className="img-container" src={data.image} alt="projet" />
+              <a href={data.lien} target="_blank">
+                <img className="img-container" src={data.image} alt="projet" />
+              </a>
               <cite>{data.description} </cite>
             </div>
           ))}

@@ -1,4 +1,10 @@
-.contact-container {
+@font-face {
+  font-family: "melinda_evania";
+  src: url("../Font/MelindaEvania.ttf");
+}
+@font-face {
+  font-family: "anthemia";
+  src: url("../Font/AnthemiaRegular.ttf");
 }
 
 .title-h2 {
@@ -13,11 +19,18 @@
   text-transform: uppercase;
   font-size: 4rem;
   line-height: 0.75;
+  font-family: "melinda_evania";
+}
+
+.paragraphe-container {
+  font-family: "anthemia";
 }
 
 .cv-img {
   width: auto;
   height: 150vh;
+  box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
+    5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
 address {
