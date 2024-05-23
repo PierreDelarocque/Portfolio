@@ -6,7 +6,7 @@ function Acceuil() {
     <>
       <div className="accueil-container">
         <p>
-          <h1>Pierre Delarocque</h1>
+          <h1 className="title-h2">Pierre Delarocque</h1>
           <h3>Développeur Web/Web mobile Full Stack</h3>
           Bonjour, Je m'appelle Pierre Delarocque, développeur web et mobile
           passionné basé à Tours. Je maîtrise des technologies telles que React,

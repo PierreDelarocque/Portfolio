@@ -6,7 +6,7 @@ const projets = [
   {
     id: 1,
     name: "Pan'click",
-    descripstion:
+    description:
       "Jeux vidéo dont l'objectif est de produire un maximum de pancake.",
     image: panc,
     compétence:
@@ -15,7 +15,7 @@ const projets = [
   {
     id: 2,
     name: "AventuresAtmo",
-    descripstion:
+    description:
       "application de proposition d’activités à Tours selon la météo.",
     image: projet2,
     compétence:
@@ -24,14 +24,10 @@ const projets = [
   {
     id: 3,
     name: "Échappee Célèbrement Fastasque",
-    descripstion:
+    description:
       "24h pour créer un projet en équipe de 5 personnes, sur le thème Nature & Évasion en mélangeant plusieurs classes et différent language de programmation. Nous étions 3 élèves JS et 2 élèves PHP, de ce fait nous avons dû apprendre sur le tas à faire coller les deux technos.",
     image: projet3,
     compétence: "Filgma / HTML / CSS / Javascript / Git / Github",
-  },
-  {
-    id: 4,
-    name: "Coming Soon",
   },
 ];
 export default projets;

@@ -1,9 +1,6 @@
-import PhoneInput from "react-phone-number-input";
-import { useState } from "react";
 import cv from "../image/cvdelarocque.jpg";
 
 function Contact() {
-  const [value, setValue] = useState();
   return (
     <>
       <div className="contact-container">

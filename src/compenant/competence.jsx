@@ -3,7 +3,7 @@ import data from "../JS/competence";
 function Competence() {
   return (
     <div className="competence-container">
-      <h1>Mes Compétences</h1>
+      <h2 className="title-h2"> Mes Compétences</h2>
       <div className="comp-container">
         {data.map((data) => (
           <section className="logo-container" key={data.name}>
