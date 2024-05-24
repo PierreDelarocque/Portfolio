@@ -5,6 +5,7 @@ import sass from "../image/sass.png";
 import react from "../image/react.png";
 import node from "../image/node.png";
 import js from "../image/js.png";
+import sql from "../image/MySQL.png";
 
 const competence = [
   {
@@ -34,6 +35,10 @@ const competence = [
   {
     name: "Sass",
     image: sass,
+  },
+  {
+    name: "MySQL",
+    image: sql,
   },
 ];
 export default competence;
