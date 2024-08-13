@@ -1,4 +1,4 @@
-import cv from "../image/cvdelarocque.jpg";
+import cv from "../image/CV.png";
 
 function Contact() {
   return (
