@@ -1,13 +1,13 @@
 import Competence from "../compenant/competence";
-import Profil from "../image/pierre3.png";
+import Profil from "../image/moi.png";
 
 function Acceuil() {
   return (
     <>
       <div className="accueil-container">
-        <p>
-          <h1 className="title-h2">Pierre Delarocque</h1>
-          <h2>Développeur Web/Web mobile Full Stack</h2>
+        <section className="card-container">
+          <h1 className="title-h1">Pierre Delarocque</h1>
+          <h2 className="h2-accueil">Développeur Web/Web mobile Full Stack</h2>
           <p className="paragraphe-container">
             Bonjour, Je m'appelle Pierre Delarocque, développeur web et mobile
             passionné basé à Tours. Je maîtrise des technologies telles que
@@ -17,7 +17,7 @@ function Acceuil() {
             compétences techniques, je suis reconnu pour mon dynamisme, ma
             créativité et ma capacité à travailler en équipe.{" "}
           </p>
-        </p>
+        </section>
 
         <img className="photo-container" src={Profil} alt="" />
       </div>

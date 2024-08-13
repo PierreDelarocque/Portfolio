@@ -12,7 +12,6 @@
 .accueil-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   gap: 5rem;
 }
 
@@ -26,4 +25,31 @@
     display: flex;
     flex-direction: column;
   }
+}
+
+.title-h1 {
+  background-image: url(https://media.giphy.com/media/26BROrSHlmyzzHf3i/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+
+  font-size: 4rem;
+  line-height: 0.75;
+  align-items: center;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.h2-accueil {
+  margin-left: 2rem;
+}
+
+.paragraphe-container {
+  font-size: 1.3rem;
+  text-align: justify;
 }

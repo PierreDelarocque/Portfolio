@@ -8,7 +8,7 @@ function Projet() {
   return (
     <>
       <select onChange={(e) => setFilterChoise(e.target.value)}>
-        <option value="">All</option>
+        <option value=""> All</option>
         {data.map((projet) => (
           <option key={projet.id} value={projet.name}>
             {projet.name}
