@@ -8,13 +8,25 @@
 }
 
 .cv-img {
+  display: flex;
+  justify-content: center;
   width: auto;
-  height: 150vh;
+
   box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000,
     5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
+.contact-container {
+  display: flex;
+  justify-content: center;
+}
+
 address {
+  display: flex;
+  flex-direction: column;
+}
+
+.cv-container {
   display: flex;
   flex-direction: column;
 }

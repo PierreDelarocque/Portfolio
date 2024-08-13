@@ -24,7 +24,7 @@ function Contact() {
           </a>
         </address>
       </div>
-      <div>
+      <div className="cv-container">
         <h2
           className="title-h2
       "
