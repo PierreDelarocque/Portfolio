@@ -1,6 +1,7 @@
 import panc from "../image/panclick.png";
 import projet2 from "../image/aventuresAtmo.png";
 import projet3 from "../image/echappee.png";
+import projet4 from "../image/street.png";
 
 const projets = [
   {
@@ -31,6 +32,16 @@ const projets = [
     image: projet3,
     compétence: "Filgma / HTML / CSS / Javascript / Git / Github",
     lien: "https://github.com/WildCodeSchool-2024-02/wcs-Protojam-goupeA.git",
+  },
+  {
+    id: 4,
+    name: "STREET ART HUNTER",
+    description:
+      "Jeux d’orientation qui consiste à utiliser la technique du géo-positionnement par satellite (GPS) pour rechercher ou ajouter œuvre de rue, dans divers endroits à travers la France.",
+    image: projet4,
+    compétence:
+      "Figma /React /API /SCSS /SASS /Javascript /Node /Express /Mysql /Cors /Méthode Agile avec SCRUM /Git /Github",
+    lien: "https://npm-code.remote-6.wilders.dev",
   },
 ];
 export default projets;

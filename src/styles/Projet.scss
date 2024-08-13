@@ -1,15 +1,20 @@
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
 .projet-container {
+  flex: 0 1 48%;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 10px;
-  margin: 20px;
+  margin: 10px 0;
+  box-sizing: border-box;
 }
-.grid-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 2rem;
-}
+
 .projet-container h2 {
   font-family: "melinda_evania";
   font-size: 2em;
@@ -19,7 +24,6 @@
   left: 50%;
   transform: translate(-50%, -50%);
   z-index: 1;
-
   transition: color 0.3s, text-shadow 0.3s;
 }
 
@@ -31,8 +35,8 @@
 }
 
 .img-container {
-  width: auto;
-  height: 40vh;
+  width: 100%;
+  height: auto;
   z-index: 0;
   border-radius: 20px;
   transition: transform 0.3s, box-shadow 0.3s;
@@ -46,6 +50,15 @@
     10px 10px 20px 10px rgba(0, 0, 0, 0.2);
 }
 
+.lottie-container {
+  flex: 0 1 100%;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 20rem;
+  margin-top: 20px;
+}
+
 select {
   appearance: none;
   outline: 0;
@@ -54,36 +67,19 @@ select {
   background-image: none;
   box-shadow: none;
   font-size: 1.2em;
-}
-
-select {
   position: relative;
   width: 350px;
   height: 45px;
   overflow: hidden;
   border-radius: 5px;
   border: 1px solid #ced4da;
-}
-
-select {
-  width: 30%;
-  height: 2rem;
-  margin: 0;
-  padding-left: 15px;
   color: white;
   cursor: pointer;
-}
-
-.lottie-container {
-  display: flex;
-  justify-content: center;
-  width: auto;
-  height: 20rem;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width: 999px) {
-  .grid-container {
-    display: flex;
-    flex-direction: column;
+  .projet-container {
+    flex: 0 1 100%;
   }
 }
