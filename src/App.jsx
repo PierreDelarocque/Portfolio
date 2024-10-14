@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <header className="header-container">
-        <h1 className="titre-h1">Mon Portefolio</h1>
+        <h1 className="titre-h1">Mon Portfolio</h1>
       </header>
       <nav>
         <NavLink to="/">Portfolio</NavLink>
