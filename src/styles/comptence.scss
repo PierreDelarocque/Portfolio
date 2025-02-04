@@ -4,10 +4,18 @@
 }
 
 .comp-container {
-  display: flex;
-
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 1rem;
   justify-content: center;
+  max-width: 800px;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 @media screen and (max-width: 999px) {
@@ -24,6 +32,60 @@
   -moz-background-clip: text;
   -webkit-background-clip: text;
   text-align: center;
-  font-size: 4rem;
+  font-size: 3rem;
   line-height: 0.75;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  animation: fadeIn 0.8s ease-in-out forwards;
+}
+
+/* Appliquer un délai progressif à chaque élément */
+.logo-container:nth-child(1) {
+  animation-delay: 0.2s;
+}
+.logo-container:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.logo-container:nth-child(3) {
+  animation-delay: 0.6s;
+}
+.logo-container:nth-child(4) {
+  animation-delay: 0.8s;
+}
+.logo-container:nth-child(5) {
+  animation-delay: 1s;
+}
+
+.competence-swiper {
+  width: 80%;
+  margin: auto;
+}
+
+.img-logo {
+  width: 15vh;
+  height: auto;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }

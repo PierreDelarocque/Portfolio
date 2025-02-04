@@ -6,6 +6,9 @@ import react from "../image/react.png";
 import node from "../image/node.png";
 import js from "../image/js.png";
 import sql from "../image/MySQL.png";
+import docker from "../image/docker.png";
+import typescript from "../image/tpscript.png";
+import graphql from "../image/GraphQL.png";
 
 const competence = [
   {
@@ -39,6 +42,18 @@ const competence = [
   {
     name: "MySQL",
     image: sql,
+  },
+  {
+    name: "Docker",
+    image: docker,
+  },
+  {
+    name: "TypeScript",
+    image: typescript,
+  },
+  {
+    name: "GraphQl",
+    image: graphql,
   },
 ];
 export default competence;
