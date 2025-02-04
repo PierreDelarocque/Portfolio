@@ -2,8 +2,17 @@ import panc from "../image/panclick.png";
 import projet2 from "../image/aventuresAtmo.png";
 import projet3 from "../image/celebre.png";
 import projet4 from "../image/street.png";
+import projet5 from "../image/pimpmyproduct.png";
 
 const projets = [
+  {
+    id: 4,
+    name: "PIMPMYPRODUCT",
+    description: "Développement d’un outil de gestion de catalogue produits.",
+    image: projet5,
+
+    lien: "https://predeploy.students-cda-js-2.wilders.dev/portal",
+  },
   {
     id: 4,
     name: "STREET ART HUNTER",
